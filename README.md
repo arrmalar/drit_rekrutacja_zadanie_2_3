@@ -1,9 +1,10 @@
 # Rekrutacja
-Zadanie rekrutacyjne w firmie DRIT
-1. Prosze pobrać projekt i na jego podstawie zrobić zadanie. Gotowy projekt proszę wrzucić na własne repozytorium i należy przesłać link do rozwiązania.
-2. Należy utworzyć kalkulator który posiada cztery operacje (+,-,*,/), wynik zostanie zapisany na WSZYSTKICH ZAZNACZONYCH OBIEKTACH PRACOWNIK w polu Cecha "Wynik" oraz po wykonaniu działania musi zapisać się data wykonania zadania w polu Cecha "DataObliczen". Aby tego dokonać należy zrobić Worker (przycisk) który będzie mieć parametry przyjmujące 4 zmienne: 
-1.	Zmienna X 
-2.	Zmienna Operacja - przyjmie (+, -, *, /) 
-3.	Zmienna Y
-4.	Data obliczeń
+Zadanie 2
+
+Przerobić parametr operacja na Figura (kwadrat, prostokąt, trójkąt, koło) typ enum. Zadanie analogiczne jak numer 1, mechanizm musi obliczyć pole powierzchni wskazanej figury, następnie zapisać wyniki w polu Cecha na pracownikach. Należy założyć że zmienna A = ‘r’ w przypadku obliczania pola powierzchni koła, natomiast w przypadku trójkąta B = ‘h’. Wynik zwracamy jako INT.
+
+Zadanie 3
+
+Przebić aby zmienna A i B była typem string, i stworzyć mechanizm który będzie nam wartości STRING zamieniał na INT. UWAGA nie można do tego wykorzystać istniejącego parsera typu double.Parse, double.TryParse, int.TryParse, int.Parse itd. zadanie polega na stworzeniu własnego PARSERA string na INT.
+
 
